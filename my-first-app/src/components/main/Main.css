@@ -1,6 +1,6 @@
 .Main {
-    height: 1000px;
-    background-color: lightgrey;
+    height: 100vh;
+    background-color: #F9E7D9;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -8,15 +8,18 @@
 
 .Main-btn{
     width: 200px;
-    height: 50px;
+    padding: 20px;
     background-color: transparent;
-    border: 2px solid violet;
+    border: 2px solid #F7CBC8;
     transition: .3s ease-in-out;
     font-size: 16px;
     letter-spacing: 3px;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
 }
 
 .Main-btn:hover{
-    background-color: violet;
-    color: white;
+    background-color: #928179;
+    border-color: #928179;
+    color: #fff;
 }

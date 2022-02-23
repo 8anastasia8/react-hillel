@@ -1,17 +1,17 @@
-.Header {
-    margin: 0 auto;
-    padding: 0;
-    background-color: lightpink;
-    height: 100px;
-    width: 100%;
-    overflow: hidden;
-    top: 0px;
-    position: fixed;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.Header-navbar{
+	background: #F7CBC8;
+	color: #928179
 }
-.Header h1{
-    margin: 0px;
-    color: hotpink;
+.custom-nav{
+	color: #928179 !important;
+	font-weight: 500;
+}
+.custom-nav:hover{
+	color: #fff !important;
+}
+.custom-btn {
+	background-color: #928179 !important;
+	color: #fff !important;
+	border: 2px solid #fff !important;
+	padding: 10px 15px !important;
 }

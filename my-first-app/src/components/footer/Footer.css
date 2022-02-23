@@ -1,0 +1,18 @@
+.Footer{
+	margin: 0 auto;
+	padding: 0;
+	background-color: #928179;
+	height: 100px;
+	width: 100%;
+	overflow: hidden;
+	bottom: 0px;
+	position: fixed;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.Footer h1{
+	margin: 0px;
+	color: #F7CBC8;
+}

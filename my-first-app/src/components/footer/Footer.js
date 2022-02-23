@@ -1,9 +1,12 @@
 import './Footer.css'
+import { FaInstagram, FaFacebook, FaGithub } from 'react-icons/fa';
 
 function Footer() {
 	return (
 		<div className="Footer">
-			<h1>This is footer!</h1>
+			<FaInstagram size='2em' color="#fff"/>
+			<FaFacebook size='2em' color="#fff"/>
+			<FaGithub size='2em' color="#fff"/>
 		</div>
 	)
 }

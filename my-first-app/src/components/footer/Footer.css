@@ -7,11 +7,8 @@
 	overflow: hidden;
 	bottom: 0px;
 	display: flex;
-	justify-content: center;
 	align-items: center;
 }
-
-.Footer h1{
-	margin: 0px;
-	color: #F7CBC8;
+.Footer-icon{
+	cursor: pointer;
 }

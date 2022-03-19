@@ -1,0 +1,25 @@
+.todoList{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    align-items: center;
+}
+
+.deleteBtn{
+    margin-left: 20px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    color: cadetblue;
+    cursor: pointer;
+    transition: .3s;
+    font-size: 1.5rem;
+}
+.deleteBtn:hover{
+    color: darkcyan;
+}
+
+.completed{
+    font-weight: bold;
+    color: orangered ;
+    text-decoration: line-through;
+}

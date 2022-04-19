@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
+
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2em;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    height: 100%;
+    padding: 20px;
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contactBtn{
+    border: none;
+    outline: none;
+    font-size: 1em;
+    font-family: 'Montserrat', sans-serif;
+    padding: 0.2em;
+    margin: 0.1em;
+    border-radius: 0.2em;
+    cursor: pointer;
+}
+
+.addNewContactBtn{
+    border: none;
+    outline: none;
+    font-size: 1em;
+    font-family: 'Montserrat', sans-serif;
+    padding: 0.5em;
+    margin: 0.1em;
+    border-radius: 0.2em;
+    cursor: pointer;
+}
+.dark{
+    background: #2d0c63;
+    color: #f5f9ff;
+}
+
+.dark .contactBtn {
+    background-color: #7558e0;
+    color: #f5f9ff;
+}
+.dark .addNewContactBtn{
+    background-color: #3d2691;
+    color: #f5f9ff;
+}
+
+.light{
+    background: #f5f9ff;
+    color: #292929;
+}
+
+.light .contactBtn {
+    background-color: #bdd9ff;
+}
+.light .addNewContactBtn{
+    background-color: #74a5ed;
+    color: #f5f9ff;
+}
+
+.themeBtn{
+    padding: 0.5em;
+    margin: 0.5em;
+    border: none;
+    border-radius: 0.2em;
+    font-size: 1em;
+    background-color: lightgrey;
+    color: #292929;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.contactItem{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 0.5fr 0.5fr;
+    grid-gap: 0.5em;
+
+}
+
+.contactForm{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+input{
+    border: none;
+    outline: none;
+    padding: 0.5em;
+    margin: 0.5em 0;
+}
